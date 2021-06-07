@@ -1,0 +1,56 @@
+html, body{
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid
+{
+    flex: 1 0 auto;
+}
+
+.main-box{
+    margin-top: -5px;
+    width: 420px;
+    box-shadow: 1px 1px 20px 5px #cccccc , -1px, -1px, 20px, 5px #cccccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.main-box ul{
+    font-size: 100%;
+}
+
+footer{
+    margin-top: 20px;
+    flex-shrink: 0;
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+    background-color: rgba(34, 39, 39, 0.9);
+    font-size: 1.15em;
+}
+
+.box{
+    font-family: 'Permanent Marker' , cursive;
+    background-color: #ebebeb;
+    font-size: 500%;
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    border: 0.5px solid #585858;
+}
+
+.controls{
+    padding: 5px;
+}
+
+.controls a{
+    font-size: 100% !important;
+}
